@@ -9,7 +9,7 @@ Scripts for SourceTree
 
 ### Usage
 
-Mac:
+#### Mac:
 1. SourceTree -> performance -> self defined action
 2. add actions
 
@@ -20,7 +20,7 @@ GetUploadFiles | /Users/yihuineng/SourceTree/script/GetProductFile.sh | $REPO $S
 GetUploadFiles | /Users/yihuineng/SourceTree/script/GetProductFile.sh | $REPO $FILE
 
 
-windows：
+#### windows：
 1. 安装cygwin，设置windows环境变量Path头部加C:\cygwin64\bin;，运行一次程序。
 2. 将script文件夹放到C:\cygwin64\home\
 3. 配置sourcetree的自定义动作，指向cmd脚本，添加参数 $REPO $FILE
